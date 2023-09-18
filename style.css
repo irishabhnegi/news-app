@@ -21,6 +21,9 @@ header {
   background-color: #adadad;
   box-shadow: 0px 0px 10px #adadad;
 }
+header a {
+  text-decoration: none;
+}
 
 header h1 {
   font-family: 'Gloria Hallelujah', cursive;
@@ -87,14 +90,19 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-#submit-btn {
+/* #submit-btn {
+
+} */
+
+#form-search a {
   width: 2rem;
   height: 2rem;
-  padding-right: 0.2rem;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
-  border-style: none;
-  cursor: pointer;
+  text-decoration: none;
+  padding: 0.2rem;
+  text-align: center;
+  background-color: white;
 }
 
 #submit-btn:hover {
@@ -155,7 +163,7 @@ nav ul li a:hover {
 .scroller-news-container p {
   font-size: smaller;
   text-align: justify;
-  /* font-size: medium; */
+  padding-inline: 0.2rem;
 }
 
 .new-info {
@@ -165,4 +173,5 @@ nav ul li a:hover {
 
 .new-info h2 {
   font-size: smaller;
+  padding-inline: 0.2rem;
 }

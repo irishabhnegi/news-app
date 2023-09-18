@@ -1,63 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News-App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
-    <script defer type="module" src="./script/controller.js"></script>
-</head>
-<body>
+    <script defer type="module" src="./script/index.js"></script>
+  </head>
+  <body>
     <div id="container">
-        <header>
-            <h1>news salt</h1>
+      <header>
+        <a href="#">
+          <h1>news salt</h1>
+        </a>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">catagories <i class="fa-solid fa-chevron-down"></i></a>
-                    </li>
-                    <li>
-                        <a href="#">country <i class="fa-solid fa-chevron-down"></i></i></a>
-                    </li>
-                </ul>
+        <nav>
+          <ul>
+            <li>
+              <a href="#"
+                >catagories <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#">country <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+          </ul>
 
-                <form id="form-search">
-                    <input type="text" placeholder="search..." class="search" id="search" />
+          <form id="form-search">
+            <input
+              type="text"
+              placeholder="search..."
+              class="search"
+              id="search" />
 
-                    <button type="submit" value="submit" id="submit-btn">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </form>
-            </nav>
-        </header>
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </nav>
+      </header>
 
-        <section class="top-news-headings">
-            <h1>Top headlines of United States</h1>
+      <section class="top-news-headings">
+        <h1>Top headlines of United States</h1>
 
-            <div class="media-scroller headline-us"></div>
-        </section>
+        <div class="media-scroller headline-us"></div>
+      </section>
 
-        <section class="top-news-headings">
-            <h1>Top headlines of India</h1>
+      <section class="top-news-headings">
+        <h1>Top headlines of India</h1>
 
-            <div class="media-scroller headline-in"></div>
-        </section>
+        <div class="media-scroller headline-in"></div>
+      </section>
 
-        <section class="top-news-headings">
-            <h1>Top business headlines of United States</h1>
+      <section class="top-news-headings">
+        <h1>Top business headlines of United States</h1>
 
-            <div class="media-scroller headline-business"></div>
-        </section>
+        <div class="media-scroller headline-business"></div>
+      </section>
     </div>
-</body>
+  </body>
 </html>

@@ -27,8 +27,6 @@ function makeupGenerator(data) {
     .join('')
 }
 
-function markup(article) {}
-
 const createUSTopHeading = async () => {
   const response = await fetch(
     'https://newsapi.org/v2/top-headlines?country=us&apiKey=fa2f06f253ed42849ef056fbb6f95446'
@@ -70,3 +68,8 @@ const createBusinessTopHeading = async () => {
 }
 
 createBusinessTopHeading()
+
+// searchBtn.addEventListener('click', (e) => {
+//   e.preventDefault()
+//   console.log(searchBar.value)
+// })
