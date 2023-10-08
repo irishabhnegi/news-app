@@ -37,31 +37,6 @@ nav {
   display: flex;
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  margin-right: 4rem;
-}
-
-nav ul li {
-  list-style-type: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
-  font-size: 1.2rem;
-}
-
-nav ul li a:hover {
-  color: #83677b;
-  text-shadow: 0px 0px 3px #83677b;
-  transition: 0.1s ease;
-}
-
 #form-search {
   width: auto;
   height: auto;
@@ -90,22 +65,18 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-/* #submit-btn {
-
-} */
-
-#form-search a {
+.search-btn {
   width: 2rem;
   height: 2rem;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
-  text-decoration: none;
   padding: 0.2rem;
+  background-color: #96869193;
   text-align: center;
-  background-color: white;
+  border-style: none;
 }
 
-#submit-btn:hover {
+.submit-btn:hover {
   background-color: #83677b;
   color: white;
   transition: 0.1s ease;

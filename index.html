@@ -21,27 +21,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
-    <script defer type="module" src="./script/index.js"></script>
+    <script defer type="module" src="./index.js"></script>
   </head>
   <body>
     <div id="container">
       <header>
-        <a href="#">
+        <a href="./index.html">
           <h1>news salt</h1>
         </a>
 
         <nav>
-          <ul>
-            <li>
-              <a href="#"
-                >catagories <i class="fa-solid fa-chevron-down"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#">country <i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-          </ul>
-
           <form id="form-search">
             <input
               type="text"
@@ -57,21 +46,33 @@
       </header>
       <div class="main">
         <section class="top-news-headings">
-          <h1>Top headlines of United States</h1>
-
-          <div class="media-scroller headline-us"></div>
-        </section>
-
-        <section class="top-news-headings">
           <h1>Top headlines of India</h1>
 
           <div class="media-scroller headline-in"></div>
         </section>
 
         <section class="top-news-headings">
-          <h1>Top business headlines of United States</h1>
+          <h1>Top headlines of United States</h1>
+
+          <div class="media-scroller headline-us"></div>
+        </section>
+
+        <section class="top-news-headings">
+          <h1>Top business headlines of India</h1>
 
           <div class="media-scroller headline-business"></div>
+        </section>
+
+        <section class="top-news-headings">
+          <h1>Top Sports headlines of India</h1>
+
+          <div class="media-scroller headline-sports"></div>
+        </section>
+
+        <section class="top-news-headings">
+          <h1>Top technology headlines of India</h1>
+
+          <div class="media-scroller headline-technology"></div>
         </section>
       </div>
     </div>
