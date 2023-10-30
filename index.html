@@ -21,7 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
-    <script defer type="module" src="./index.js"></script>
+    <script defer type="module" src="./script.js"></script>
   </head>
   <body>
     <div id="container">
@@ -44,17 +44,35 @@
           </form>
         </nav>
       </header>
+
+      <div class="banner-container">
+        <div class="carousel" data-carousel></div>
+
+        <div class="catagories-main">
+          <div class="catagories-topic">Catagories</div>
+
+          <div class="catagories">
+            <div class="topic">Business</div>
+            <div class="topic">Entertainment</div>
+            <div class="topic">General</div>
+            <div class="topic">Technology</div>
+            <div class="topic">Sports</div>
+            <div class="topic">Science</div>
+            <div class="topic">Health</div>
+          </div>
+        </div>
+      </div>
       <div class="main">
-        <section class="top-news-headings">
-          <h1>Top headlines of India</h1>
-
-          <div class="media-scroller headline-in"></div>
-        </section>
-
         <section class="top-news-headings">
           <h1>Top headlines of United States</h1>
 
           <div class="media-scroller headline-us"></div>
+        </section>
+
+        <section class="top-news-headings">
+          <h1>Top headlines of India</h1>
+
+          <div class="media-scroller headline-in"></div>
         </section>
 
         <section class="top-news-headings">
